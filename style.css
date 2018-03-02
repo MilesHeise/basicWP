@@ -1,0 +1,52 @@
+/*
+Theme Name: Tester
+Author: Miles Heise
+Description: First basic theme for learning
+Version: 0.0.1
+*/
+
+html, body {
+  position: relative;
+  min-height: 100%;
+}
+
+nav {
+  font-size: 2rem;
+  text-align: center;
+}
+
+.post {
+  display: inline-block;
+  width: 70%;
+}
+
+.nav-item {
+  padding: 0 20px;
+  margin: 10px;
+  outline: 2px black dashed;
+}
+
+.post-title {
+  color: blue;
+}
+
+.post-details {
+  color: blue;
+}
+
+.sidebar {
+  display: inline-block;
+  position: fixed;
+  right: 0;
+  width: 30%;
+}
+
+.footer {
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  height: 40px;
+  background-color: red;
+  color: white;
+}
